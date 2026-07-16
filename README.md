@@ -334,3 +334,126 @@ Lists all Python packages required to reproduce the project.
 ### `README.md`
 
 Project documentation explaining installation, methodology, implementation, and usage.
+
+
+# 📊 Evaluation Metrics
+
+The framework evaluates model performance using standard regression and sequence-labeling metrics.
+
+### Essay Scoring
+
+- R² Score
+- Root Mean Square Error (RMSE)
+- Mean Absolute Error (MAE)
+
+### BIO Error Detection
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+These metrics collectively measure both holistic essay evaluation quality and token-level prediction performance.
+
+---
+
+# 🎯 Applications
+
+InsightGrader can be applied in a wide range of educational environments.
+
+### Educational Institutions
+
+- Automated assignment grading
+- Essay evaluation
+- Writing assessment
+
+### Online Learning Platforms
+
+- Personalized feedback
+- Student progress tracking
+- Large-scale assessment
+
+### Competitive Examinations
+
+- Automated descriptive answer evaluation
+- Writing quality analysis
+- Language proficiency assessment
+
+### Research
+
+- Educational NLP
+- Automated Essay Scoring
+- Intelligent Tutoring Systems
+- Explainable AI in Education
+
+---
+
+# 📈 Results and Observations
+
+Extensive experimentation was conducted across multiple Transformer and recurrent neural network architectures.
+
+Key observations include:
+
+- Transformer-based models consistently outperformed traditional recurrent architectures.
+- Multi-Task Learning improved both essay scoring accuracy and token-level error detection.
+- Shared contextual representations enabled better semantic understanding of student responses.
+- Hyperparameter optimization using Optuna further enhanced prediction performance.
+- DeBERTa achieved the strongest overall performance among the evaluated models.
+
+The experimental findings demonstrate the effectiveness of combining regression and sequence labeling within a unified framework.
+
+---
+
+# 🔬 Research Contributions
+
+The major contributions of this project include:
+
+- Development of a unified Multi-Task Learning framework for automated educational assessment.
+- Simultaneous essay scoring and token-level BIO error detection using shared Transformer representations.
+- Comparative analysis of multiple Transformer and recurrent neural network architectures.
+- Integration of Optuna for automated hyperparameter optimization.
+- Development of an interactive web application for real-time essay evaluation.
+- Support for interpretable educational feedback through token-level error localization.
+- Framework designed for scalability in educational institutions and online learning platforms.
+
+---
+
+# 🚀 Future Enhancements
+
+Several improvements can further extend the capabilities of InsightGrader:
+
+- Support for multilingual essay evaluation.
+- Integration of Large Language Models (LLMs) for richer feedback generation.
+- Explainable AI visualizations using SHAP and LIME.
+- Rubric-based scoring for standardized examinations.
+- Real-time classroom analytics dashboard.
+- Cloud deployment for large-scale educational institutions.
+- Speech-to-text essay evaluation.
+- Personalized learning recommendations.
+- Adaptive feedback based on student proficiency levels.
+
+---
+
+# ⭐ Support
+
+If you find this project useful for your research or learning, consider giving it a ⭐ on GitHub.
+
+Your support helps improve the project and encourages future development.
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project in accordance with the terms of the license.
+
+For more details, see the `LICENSE` file.
+
+---
+
+## Thank You
+
+Thank you for visiting the InsightGrader repository.
+
+Feedback, suggestions, and contributions are always welcome. Feel free to open an issue or submit a pull request to help improve the project.
