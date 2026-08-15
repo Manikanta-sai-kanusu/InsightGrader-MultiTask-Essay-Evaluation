@@ -3,7 +3,7 @@
 
 ## Intelligent Essay and Answer Evaluation with Misconception Tracking and Cognitive Load Insights — A Comparative Analysis
 
-> A Multi-Task Learning framework for Automated Essay Scoring and Token-Level Error Detection using Transformer-based Deep Learning Model.
+> A Multi-Task Learning framework for Automated Essay Scoring and Token-Level Error Detection using Transformer-based Deep Learning Models.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red?style=for-the-badge&logo=pytorch)
